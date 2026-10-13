@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food Menu</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family:Helvetica;
+            background-color: #f0f0f0;  
+            padding: 30px;
+            text-align: center;
+
+        }
+        h1 { color:chocolate}
+        h1 + p { color:#ffe0b2;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: #bf360c;
+            display: inline-block;
+        }
+        ul > li {
+            list-style-type: none;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #5d4037;
+            margin: 6px auto;
+            width: 260px;
+            background: #fff3e0;
+            padding: 15px 20px;
+            border-radius: 8px;
+        }
+        ul li:nth-child(3) {
+            background: #ffe082;
+            color: #e65c00;
+
+        }
+        .desc {
+            color: #555;
+            margin-top: 20px;
+            font-size: 15px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+            .desc::first-letter {
+            font-size: 220%;
+            color: #e65c00;
+            font-weight: bold;
+        }
+        .links { margin-top: 25px; }
+        a{
+            color: #e65c00;
+            text-decoration: none;
+            font-size:15px;
+            margin: 0 12px;
+            padding:8px 18px;
+            border: 2px solid #e65c00;
+            border-radius: 8px;
+
+        }
+        a:hover {
+            background-color: #e65c00;
+            color: #fff;
+        }
+
+    </style>
+    <h1>My Food Menu</h1>
+    <p1>Pick your favourite dish</p1>
+
+    <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Pasta-Chef's Special!</li>
+        <li>Rice Platter</li>
+        <li>Grilled Chicken</li>
+        <li>Chocolate Cake</li>
+    </ul>
+    <p class="desc">Welcome to our food menu! We offer a variety of delicious dishes to satisfy your cravings. From classic favorites like pizza and burgers to our chef's special pasta, there's something for everyone. Don't forget to try our mouth-watering chocolate cake for dessert!</p>
+    <div class="links">
+        <a href="#">Order Now</a>
+        <a href="#">View Full Menu</a>
+    </div>
+</body>
+</html>

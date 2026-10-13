@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG css</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: gray;
+            font-family: Helvetica;
+        }
+        header {
+            height: 300px;
+            width: 100%;
+            background-image: linear-gradient(to right, lightgreen, cyan);
+            position: relative;
+           
+
+        }
+        h1 {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+            font-size: 60px;
+        }
+       #imgDiv{
+        background-image: url('https://static.vecteezy.com/system/resources/previews/021/472/788/non_2x/seamless-pattern-texture-with-cute-animal-riding-scooter-cartoon-icon-illustration-for-fabric-textile-nursery-baby-clothes-background-textile-wrapping-paper-and-other-decoration-vector.jpg');
+
+        
+        background-repeat: repeat;
+        background-position: left;
+        width: 100%;
+        height: 400px;
+
+       }
+    </style>
+</head>
+<body>
+    <header class="star-gradient">
+        <h1>My Website</h1>
+    </header>
+    <main class="star-image">
+        <div id="imgDiv"></div>
+    </main>
+    <div class="star-gradient"></div>
+</body>
+</html>
