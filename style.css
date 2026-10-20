@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1e1e1e;
+    font-family: Arial, sans-serif;
+}
+
+/* Outer Container */
+.calculator {
+    width: 360px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+}
+
+/* Black Display Screen */
+.calculator-display {
+    height: 120px;
+    background-color: #000000;
+}
+
+/* Grid layout with white borders created by grid gap */
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    background-color: #ffffff; /* Creates the white lines between buttons */
+    border-top: 2px solid #ffffff;
+}
+
+/* General Button Formatting */
+.btn {
+    height: 75px;
+    font-size: 1.6rem;
+    color: #000000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Specific button spans */
+.span-2 {
+    grid-column: span 2;
+}
+
+/* Light gray elements (Operators, Clear, Del) */
+.btn.action {
+    background-color: #b8c4c7;
+}
+
+.btn.action:hover {
+    background-color: #a4b2b6;
+}
+
+/* Medium gray elements (Numbers & Decimal point) */
+.btn.num {
+    background-color: #707070;
+}
+
+.btn.num:hover {
+    background-color: #5c5c5c;
+}
