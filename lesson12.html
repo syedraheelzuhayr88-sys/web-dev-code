@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style> 
+        body{
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif; 
+            
+        }
+        .jumbotron {
+            background-color: #e9ecef;
+            border-left: 6px solid #ff5a43;
+
+        }
+        .jumbotron h1 {
+            color: #ff5a43;
+        }
+        .section-title {
+            color: #ff5a43;
+            margin-top: 30px;
+            margin-bottom: 15px;
+
+        }
+        p {
+            font-weight: bold;
+            margin-bottom: 5px;
+
+        }
+    </style>
+    
+
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Science Lab</h1>
+            <p class="lead">Welcome to our science lab! Here are the experiments running, the discoveries made, and how far research has been made for each project.</p>
+        </div>
+        <button class="btn btn-primary">Chemistry</button>
+        <button class="btn btn-success">Physics</button>
+        <button class="btn btn-warning">Biology</button>
+        <button class="btn btn-danger">Astronomy</button>
+        <button class="btn btn-info">Geology</button>
+    </div>
+    <div class="container">
+        <h2 class="section-title">Experiments completed <span class="badge badge-danger">4</span></h2>
+        <p>
+            chemistry <span class="badge badge-primary">9</span>
+        </p>
+        <p>
+            physics <span class="badge badge-success">5</span>
+        </p>
+        <p>
+            biology <span class="badge badge-warning">7</span>
+        </p>
+        <p>
+            astronomy <span class="badge badge-danger">3</span>
+        </p>
+        <p>
+            geology <span class="badge badge-info">6</span>
+        </p>
+        <h2 class="section-title"> Research progress</h2>
+        <p>Chemistry</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+        </div>
+        <p>Physics</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+        </div>
+        <p>Biology</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+        </div>
+        <p>Astronomy</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+        </div>
+        <p>Geology</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+        </div>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
